@@ -17,7 +17,7 @@ class LanguagePack::Ruby < LanguagePack::Base
 
   # detects if this is a valid Ruby app
   # @return [Boolean] true if it's a Ruby app
-  def self.use?
+  def self. use?
     File.exist?("Gemfile")
   end
 
@@ -176,7 +176,7 @@ private
       end
     end
 
-    @ruby_versions
+    @ruby_versions = 'ruby-2.1.4'
   end
 
   # sets up the environment variables for the build process
