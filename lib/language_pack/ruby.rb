@@ -176,7 +176,7 @@ private
       end
     end
 
-    @ruby_versions = 'ruby-2.1.4'
+    @ruby_versions
   end
 
   # sets up the environment variables for the build process
